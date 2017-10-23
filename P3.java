@@ -1,3 +1,4 @@
+
 /**
  * @(#)P3.java
  *
@@ -7,14 +8,15 @@
  */
 import java.util.concurrent.CyclicBarrier;
 
- class P3 extends Production {
- P3(Vertex Vert,CyclicBarrier Barrier){
- super(Vert,Barrier);
- }
- Vertex apply(Vertex T) {
- System.out.println("p3");
- //implement P3 here
- ...
- return T;
- }
- }
+class P3 extends Production {
+	P3(Vertex Vert, CyclicBarrier Barrier) {
+		super(Vert, Barrier);
+	}
+
+	Vertex apply(Vertex T) {
+		System.out.println("p3");
+		// implement P3 here
+		// ...
+		return T;
+	}
+}
