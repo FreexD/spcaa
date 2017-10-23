@@ -6,6 +6,5 @@ public class Main {
 		Executor s = new Executor();
 		s.start();
 	}
-    
-    
+
 }

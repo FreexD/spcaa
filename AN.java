@@ -14,7 +14,7 @@ import java.util.concurrent.CyclicBarrier;
 		 T.m_a[1][2]=-1.0;
 		 T.m_a[2][2]=1.0;
 		 T.m_b[1]=0.0;
-		 T.m_b[2]=1.0/6.0;
+		 T.m_b[2]=7.0;
 		 
 		 return T;
 	 }
