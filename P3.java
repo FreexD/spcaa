@@ -15,8 +15,11 @@ class P3 extends Production {
 
 	Vertex apply(Vertex T) {
 		System.out.println("p3");
-		// implement P3 here
-		// ...
+		Vertex T1 = new Vertex(null, null, T, "node");
+		Vertex T2 = new Vertex(null, null, T, "node");
+		T.set_left(T1);
+		T.set_right(T2);
+		T.set_label("leaf");
 		return T;
 	}
 }
